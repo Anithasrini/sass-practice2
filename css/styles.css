@@ -4,7 +4,8 @@ html {
   padding: 0;
   background: #EDEFF0;
   width: 1200px;
-  border: 1px solid white;
+  border: 1px solid #EDEFF0;
+  border-bottom: 1.5px solid #D0D2D3;
 }
 
 #library {
@@ -13,17 +14,24 @@ html {
 }
 
 .lib-header {
-  height: 120px;
+  height: 80px;
   margin: 0 auto;
   padding: 5px 5px 0;
-  background-color: lightgray;
+  /*background-color: lightgray;*/
   width: 100%;
 }
 
 .lib-header h4 {
   float: left;
+  padding-top: 10px;
+  padding-left: 24px;
 }
 
+hr {
+  background: #D0D2D3;
+  height: 3px;
+  margin: -5px 24px 0px 24px;
+}
 .lib-header ul {
   /*background-color: red;*/
   float: right;
@@ -72,7 +80,7 @@ background-color: #838CC7;
 .nav ul {
   float: left;
   list-style: none;
-  height: 50px;
+  height: 30px;
   color: white;
   margin: 25px 0 0 5px;
   padding: 0;
@@ -84,6 +92,7 @@ background-color: #838CC7;
 
  .nav {
    overflow: auto;
+   height: 80px;
  }
 
  .nav p {
