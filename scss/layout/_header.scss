@@ -1,0 +1,49 @@
+
+
+#library {
+  width: 100%;
+  margin: 0;
+}
+
+.lib-header {
+    height: 80px;
+    margin: 0 auto;
+    padding: 5px 5px 0;
+    /*background-color: lightgray;*/
+    width: 100%;
+  }  
+  .lib-header h4 {
+    float: left;
+    padding-top: 10px;
+    padding-left: 24px;
+
+}
+
+.lib-header ul {
+  /*background-color: red;*/
+  float: right;
+  list-style: none;
+  height: 50px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+ ul li {
+  margin: 0;
+  margin-left: 15px;
+  padding: 40px 15px 15px 0px;
+  display: inline;
+
+}
+
+li a {
+  text-decoration: none;
+  font-size: 2em;
+  color: grey;
+}
+
+hr {
+  background: #D0D2D3;
+  height: 3px;
+  margin: -5px 24px 0px 24px;
+}

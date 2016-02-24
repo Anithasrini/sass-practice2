@@ -1,0 +1,50 @@
+.languages {
+  width: 535px;
+  float: left;
+  background: white;
+  border: 1px solid white;
+  margin: 20px 30px 30px 30px;
+  box-sizing: border-box;
+  height: 360px;
+}
+
+.java.nav {
+background-color: #2C9676;
+}
+
+.python.nav {
+  background-color: #F092B0;
+}
+
+.wordpress.nav {
+background-color: #838CC7;
+}
+
+.nav ul {
+  float: left;
+  list-style: none;
+  height: 30px;
+  color: white;
+  margin: 25px 0 0 5px;
+  padding: 0;
+}
+
+.nav ul li:first-of-type {
+  font-size: 1.4em;
+}
+
+ .nav {
+   overflow: auto;
+   height: 80px;
+ }
+
+ .nav p {
+   float: right;
+ }
+.time {
+  color: white;
+  padding: 25px;
+}
+ .nav li {
+   padding: 10px 0 0 0;
+ }
